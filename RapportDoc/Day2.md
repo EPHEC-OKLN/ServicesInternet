@@ -5,6 +5,7 @@ Le page inscription ainsi que la page des formations est presque terminée.
 Nous avons egalement pu obtenir un nom de domaine pour le site web ainsi que les informations utiles pour la configuration du serveur DNS.
 # Problèmes rencontrés (énnoncé du problème + solution)
 Nous rencontrons des problèmes de CSS pour la page des formations.
+Nous somme toujours dans l'attente du serveur pour le deploiment du serveur web. 
 # Motivations des technologies/infrastructures utilisées
 Nous avons choisi d'utiliser le calendrier google parce qu'il est facile d'utilisaiton. 
 De plus il est facile de l'implementer sur le site web.
