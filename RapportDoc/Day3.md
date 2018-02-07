@@ -9,5 +9,7 @@ Nous avons également commencé la conception de la base de donnée. Tout d'abor
 # Motivations des technologies/infrastructures utilisées
 Utilisation de phpMyadmin pour configurer la base de donnée en local depuis le programme xampp.
 # Remarques éventuelles
-
+Prochaine etape : mettre le site en ligne ainsi que la BDD.
 # Sources (Important !)
+https://www.apachefriends.org/fr/index.html
+https://www.phpmyadmin.net/
