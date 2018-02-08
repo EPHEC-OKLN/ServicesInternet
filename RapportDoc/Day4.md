@@ -32,3 +32,5 @@ https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysq
 http://www.open-source-guide.com/Actualites/Mariadb-10-les-nouveautes-et-avantages
 
 https://www.digitalocean.com/community/tutorials/apache-vs-nginx-practical-considerations
+
+Dernier lien : https://doc.ubuntu-fr.org/mysql
