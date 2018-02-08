@@ -2474,6 +2474,7 @@
 			float: left;
 			margin: 0 1.5em 1em 0;
 			top: 0.25em;
+			margin-left: 20px;
 		}
 
 		.image.right {
@@ -2500,6 +2501,14 @@
 				width: 100%;
 			}
 
+		#logoCenter {
+			width: 400px;
+		}
+		#logoExt {
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 20px;
+		}
 /* List */
 
 	ol {
@@ -3615,6 +3624,10 @@
 
 	@media screen and (max-width: 736px) {
 
+		.image.left {
+			margin-left: 70px;
+		}
+
 		/* Basic */
 
 			html, body {
@@ -3910,6 +3923,13 @@
 
 	@media screen and (max-width: 480px) {
 
+
+		#logoCenter {
+			width: 300px;
+		}
+		#logoExt {
+			margin: 0px;
+		}
 		/* Basic */
 
 			html, body {

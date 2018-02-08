@@ -1,5 +1,5 @@
 <header id="header">
-    <h2 id="logo"><a href="index.php"><span class="image left" style="width:100px; margin-left: 20px;"><img src="images/logo.png" alt=""></span></a></h2>
+    <h2 id="logo"><a href="index.php"><span class="image left" style="width:100px;"><img src="images/logo.png" alt=""></span></a></h2>
     <nav id="nav">
         <ul>
             <li><a href="index.php">Accueil</a></li>

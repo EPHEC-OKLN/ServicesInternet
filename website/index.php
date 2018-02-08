@@ -16,8 +16,8 @@
     <!-- Banner -->
     <section id="banner">
         <div class="content" style="text-align: left"">
-            <span class="left" style=" display: inline-block; vertical-align: middle; margin-right: 20px; "><img src="images/logo.png" alt="" style="width: 400px;"></span>
-            <header>
+            <span class="left" id="logoExt" ><img src="images/logo.png" alt="" id="logoCenter"></span>
+                <header>
 
                 <h3>Nous offrons des formations en ligne<br/> aussi bien en langue ou bien en informatique.<br />
                     Just apps. Lots of mother flipping apps.</h3>
