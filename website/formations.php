@@ -80,6 +80,6 @@
             </section>
         </div>
     </div>
-
+    <?php include('include/script.inc.php'); ?>
 </body>
 </html>
