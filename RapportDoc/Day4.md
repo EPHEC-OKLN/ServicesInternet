@@ -1,6 +1,13 @@
 # Tâches réalisées
 Mise en place du site web en ligne. Le site est accessible depuis l'adresse suivante : www.okln.ephec-ti.be .
 
+Captures d'écrans : 
+
+!image[IMG1](https://imgur.com/GOJRa6W)
+
+!image[IMG2](https://imgur.com/1f7fQuy)
+
+
 Le serveur à été configuré pour fonctionner avec du PHP.
 Nous sommes aussi occupé d'installer une base de donnée pour stocker les données.
 # Problèmes rencontrés (énnoncé du problème + solution)
@@ -34,3 +41,5 @@ http://www.open-source-guide.com/Actualites/Mariadb-10-les-nouveautes-et-avantag
 https://www.digitalocean.com/community/tutorials/apache-vs-nginx-practical-considerations
 
 Dernier lien : https://doc.ubuntu-fr.org/mysql
+
+https://www.it-connect.fr/voir-les-droits-utilisateur-dans-mysql-en-ligne-de-commande-%EF%BB%BF/
