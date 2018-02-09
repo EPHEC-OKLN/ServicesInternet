@@ -3,8 +3,10 @@ Le site est accessible depuis le web, sécurisé en HTTPS.
 Le serveur web est configuré avec un serveur proxy.
 Depuis le serveur web nous avons mis en place le site web pour qu'il fonctionne sur le port 80 et ensuite le serveur proxy s'occupe de faire la redirection sur le port 443.
 Le Base de Donnée est fonctionelle et accessible via le serveur web. Elle n'est pas connectée sur internet pour se proteger. C'est donc le serveur web lui même qui fait la connexion en interne vers la DB.
+
 # Problèmes rencontrés (énnoncé du problème + solution)
-L'inscription et la connexion ne sont pas disponible. Nous n'avons pas réussi à mettre en place la connexion avec la base de donnée directement du php dans le temps impartie. La solution pour résoudre ce problème est de mettre en place la connexion, certain fichier ont deja été créer afin d'y parvenir.  
+L'inscription et la connexion ne sont pas disponibles. Nous n'avons pas réussi à mettre en place la connexion avec la base de données directement du php dans le temps impartie. La solution pour résoudre ce problème est de mettre en place la connexion, certains fichiers ont deja été créés afin d'y parvenir.  
+
 # Motivations des technologies/infrastructures utilisées
 Serveur web :
 
