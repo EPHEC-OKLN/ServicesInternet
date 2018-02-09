@@ -1,0 +1,31 @@
+ server {
+	listen 0.0.0.0:443 ssl;
+	listen [::]:443 ssl;
+	server_name www.okln.ephec-ti.be;
+
+	ssl_certificate /etc/letsencrypt/live/okln.ephec-ti.be/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/okln.ephec-ti.be/privkey.pem;
+        ssl_trusted_certificate /etc/letsencrypt/live/okln.ephec-ti.be/fullchain.pem;
+
+	return 301 https://okln.ephec-ti.be;
+}
+
+server {
+	listen 0.0.0.0:443 ssl http2;
+	listen [::]:443 ssl http2;
+	server_name okln.ephec-ti.be;
+
+	ssl_certificate /etc/letsencrypt/live/okln.ephec-ti.be/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/okln.ephec-ti.be/privkey.pem;
+        ssl_trusted_certificate /etc/letsencrypt/live/okln.ephec-ti.be/fullchain.pem;
+
+	add_header Strict-Transport-Security max-age=15768000 always;
+	location / {
+		proxy_set_header Host $host;
+		proxy_set_header X-Forwarded-Proto $scheme;
+		proxy_set_header X-Forwarded-Port $server_port;
+		proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+		proxy_set_header X-Real-IP $remote_addr;
+		proxy_pass http://192.168.40.3:80;
+	}
+}
